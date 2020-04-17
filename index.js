@@ -175,7 +175,7 @@ window.addEventListener('mouseup', e => {
 let model = null;
 
 async function loadNeuralNet() {
-	model = await tf.loadLayersModel('https://neuralnetai.github.io/models/tfjs_files/model.json');
+	model = await tf.loadLayersModel('https://qodatecnologia.github.io/deploy_js/model.json');
 }
 // Parses our grid into a matrix so we can then convert to a tensor.
 let parseGrid = () => {
